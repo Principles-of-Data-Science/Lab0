@@ -102,3 +102,15 @@ Render your file! You can
 
 4. Upload your PDF file to the course web site.
 
+
+## Submission Number ID (DO NOT EDIT!)
+
+```{r, include=FALSE}
+## DO NOT EDIT THIS CODE!
+set.seed(2025-01-13)
+num <- rpois(1, 100)
+```
+
+Use the number below when submitting your quiz (you have to render the file to see the number):
+
+`r num`
