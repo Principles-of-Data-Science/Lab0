@@ -1,0 +1,104 @@
+---
+title: "Lab 0"
+format: html
+---
+
+## Enter the YOUR NAME below:
+
+
+
+
+## Instructions
+
+In this lab, you will write some simple R Markdown to ensure that you can compile R Markdown documents into PDF files. Assignments in this course will be submitted in the form of compiled PDF documents so it is important that you have the tools installed to do this.
+
+### Install R Packages
+
+R packages can be installed with the `install.packages()` function.
+
+1. If you haven't already, install the `tidyverse` package using the `install.packages()` function. 
+
+2. You will also need to install the `rmarkdown` package in order to knit R Markdown files into HTML or PDF files. 
+
+NOTE: **DO NOT** put the `install.packages()` code in this document. You should only ever call `install.packages()` in the console in RStudio.
+
+
+## Question 1
+
+
+The code chunk below loads the `tidyverse` package with the `library()` function.
+
+```{r}
+## This is a comment. It does not get executed by R.
+library(tidyverse)
+```
+
+Using the same format as above, write a code chunk that loads the `datasets` package.
+
+```{r}
+
+```
+
+
+
+## Question 2
+
+You can obtain the version of R that you are using with the following code.
+
+```{r}
+print(R.version.string)
+```
+
+You can find the version of RStudio from the "About RStudio" menu option.
+
+Using an unordered list (i.e. bulleted list), write the version of R that you are using and the version of RStudio that you are using.
+
+* R version: 
+
+* RStudio version: 
+
+
+Write the same information in the bullets above using an ordered / numbered list below.
+
+1. 
+
+2. 
+
+
+## Question 3
+
+
+Links can be indicated using square brackets and parentheses. So [this is a link to the Google](https://www.google.com/) homepage.
+
+Modify the text of this sentence to link some of the text to the UT Austin main web page.
+
+
+
+## Question 4
+
+Bold face can be indicated in Markdown using two asterisks. So this is **bold face**.
+
+Modify this sentence to make some of the words in the sentence bold face.
+
+
+## Question 5
+
+Italics can be indicated using a *single asterisk*.
+
+Modify this sentence to make some of the words in the sentence italic face.
+
+
+------------------------------------------------------------------------
+
+## Generating a PDF Output File
+
+Render your file! You can
+
+1. Render your file into HTML
+
+2. Once it renders in HTML, click on `Open in Browser` at the top left of the RStudio Viewer window so that the file opens in your web browser. 
+
+3. Print your HTML file into PDF from your browser. 
+
+4. Upload your PDF file to the course web site.
+
