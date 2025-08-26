@@ -100,8 +100,6 @@ Render your file! You can
 
 3. Print your HTML file into PDF from your browser. 
 
-4. Upload your PDF file to the course web site.
-
 
 ## Submission Number ID (DO NOT EDIT!)
 
